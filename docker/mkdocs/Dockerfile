@@ -1,7 +1,7 @@
 # Copyright (c) 2020 ToIP Foundation
 
 # Pull base image from official Material for MkDocs repo
-FROM squidfunk/mkdocs-material
+FROM squidfunk/mkdocs-material:6.1.7
 
 # Add bash as alternative to default ash shell env in Alpine
 RUN apk add --no-cache --upgrade bash python py-pip
